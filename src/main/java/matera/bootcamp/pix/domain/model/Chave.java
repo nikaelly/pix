@@ -1,7 +1,6 @@
 package matera.bootcamp.pix.domain.model;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
@@ -11,7 +10,6 @@ import javax.persistence.OneToOne;
 import lombok.Data;
 
 @Data
-@Entity
 public class Chave {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
