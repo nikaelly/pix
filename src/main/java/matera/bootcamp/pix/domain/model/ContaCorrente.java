@@ -27,5 +27,8 @@ public class ContaCorrente {
     @Column(precision = 10, scale = 2, nullable = false)
     private BigDecimal saldo;
 
+//    @OneToMany
+//    private List<Chave> chaves;
+
 
 }
