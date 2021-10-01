@@ -7,6 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Data;
 
@@ -26,5 +29,9 @@ public class ContaCorrente {
 
     @Column(precision = 10, scale = 2, nullable = false)
     private BigDecimal saldo;
+
+    @OneToOne(mappedBy = "contaCorrente")
+    @JsonIgnore
+    private Usuario usuario;
 
 }
