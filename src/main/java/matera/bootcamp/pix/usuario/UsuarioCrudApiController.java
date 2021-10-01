@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
 import matera.bootcamp.pix.domain.model.Usuario;
-import matera.bootcamp.pix.service.UsuarioCrudService;
+import matera.bootcamp.pix.service.usuario.UsuarioCrudService;
 
 @RestController
 @RequiredArgsConstructor

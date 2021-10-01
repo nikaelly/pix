@@ -1,4 +1,4 @@
-package matera.bootcamp.pix.service;
+package matera.bootcamp.pix.service.usuario;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
